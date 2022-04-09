@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "botw-modding-mod:glass_pane"
+    },
+    "B": {
+      "tag": "botw-modding-mod:fish_buckets"
+    }
+  },
+  "result": {
+    "item": "botw-modding-mod:fish_tank"
+  }
+}

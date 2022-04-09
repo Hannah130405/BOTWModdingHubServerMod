@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.HannahTheBeegirl.BOTWModdingMod.BOTWModdingMod"
+    ],
+    "client": [
+      "net.HannahTheBeegirl.BOTWModdingMod.BOTWModdingModClient"
     ]
   },
   "mixins": [

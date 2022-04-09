@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "botw-modding-mod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "BOTW Modding Hub Server Mod",
+  "description": "Custom made mod for the BOTW Modding Hub discord server's minecraft server, to add extra features",
   "authors": [
-    "Me!"
+    "HannahTheBeegirl"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://hannah130405.github.io/home/",
+    "sources": "https://github.com/Hannah130405/BOTWModdingHubServerMod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.HannahTheBeegirl.BOTWModdingMod.BOTWModdingMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "BOTWModdingMod.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +31,5 @@
     "fabric": "*",
     "minecraft": "1.18.x",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

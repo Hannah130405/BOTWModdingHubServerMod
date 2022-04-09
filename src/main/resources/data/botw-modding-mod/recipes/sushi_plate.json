@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:tropical_fish"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    [
+      {"item": "minecraft:stone_slab"},
+      {"item": "minecraft:smooth_stone_slab"},
+      {"item": "minecraft:quartz_slab"},
+      {"item": "minecraft:smooth_quartz_slab"}
+    ]
+  ],
+  "result": {
+    "item": "botw-modding-mod:sushi_plate"
+  }
+}

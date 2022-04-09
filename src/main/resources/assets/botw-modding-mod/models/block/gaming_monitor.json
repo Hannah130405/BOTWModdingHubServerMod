@@ -1,6 +1,89 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "botw-modding-mod:block/gaming_monitor"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "botw-modding-mod:block/gaming_monitor",
+		"screen": "botw-modding-mod:block/screen_default"
+	},
+	"elements": [
+		{
+			"from": [3, 6, 8],
+			"to": [13, 13, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#screen"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#screen"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#screen"},
+				"west": {"uv": [15, 0, 16, 16], "texture": "#screen"},
+				"up": {"uv": [0, 0, 16, 1], "rotation": 180, "texture": "#screen"},
+				"down": {"uv": [0, 15, 16, 16], "rotation": 180, "texture": "#screen"}
+			}
+		},
+		{
+			"from": [2, 5, 8],
+			"to": [14, 14, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 9], "texture": "#all"},
+				"east": {"uv": [14, 0, 12, 9], "texture": "#all"},
+				"south": {"uv": [16, 13, 12, 9], "texture": "#all"},
+				"west": {"uv": [16, 0, 14, 9], "texture": "#all"},
+				"up": {"uv": [0, 11, 12, 9], "texture": "#all"},
+				"down": {"uv": [0, 13, 12, 11], "texture": "#all"}
+			}
+		},
+		{
+			"from": [7, 1, 9],
+			"to": [9, 5, 10],
+			"faces": {
+				"north": {"uv": [0, 15, 1, 16], "texture": "#all"},
+				"east": {"uv": [0, 15, 1, 16], "texture": "#all"},
+				"south": {"uv": [0, 15, 1, 16], "texture": "#all"},
+				"west": {"uv": [0, 15, 1, 16], "texture": "#all"},
+				"up": {"uv": [0, 15, 1, 16], "texture": "#all"},
+				"down": {"uv": [0, 15, 1, 16], "texture": "#all"}
+			}
+		},
+		{
+			"from": [5, 0, 7],
+			"to": [11, 1, 11],
+			"faces": {
+				"north": {"uv": [0, 15, 1, 16], "texture": "#all"},
+				"east": {"uv": [0, 15, 1, 16], "texture": "#all"},
+				"south": {"uv": [0, 15, 1, 16], "texture": "#all"},
+				"west": {"uv": [0, 15, 1, 16], "texture": "#all"},
+				"up": {"uv": [0, 15, 1, 16], "texture": "#all"},
+				"down": {"uv": [0, 15, 1, 16], "texture": "#all"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [80, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [80, 0, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 135, 0]
+		},
+		"ground": {
+			"translation": [0, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"translation": [0, -2, -6.5],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-90, 90, 0],
+			"translation": [0, 0, -78],
+			"scale": [2, 2, 2]
+		}
+	}
 }

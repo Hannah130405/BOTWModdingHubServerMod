@@ -14,6 +14,7 @@ public class BOTWModdingModClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GAMING_MONITOR, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FISH_TANK, RenderLayer.getTranslucent());
 	}
 }

@@ -13,11 +13,11 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block GAMING_MONITOR = registerBlock("gaming_monitor",
-            new DecorationBlock(FabricBlockSettings.of(Material.METAL).luminance(3).strength(1f).nonOpaque()), ModItemGroup.DECORATION);
+            new GamingMonitorBlock(FabricBlockSettings.of(Material.METAL).luminance(5).strength(1f).nonOpaque()), ModItemGroup.DECORATION);
     public static final Block SUSHI_PLATE = registerBlock("sushi_plate",
-            new SushiPlateHitbox(FabricBlockSettings.of(Material.GLASS).strength(0.5f).nonOpaque()), ModItemGroup.DECORATION);
+            new SushiPlateBlock(FabricBlockSettings.of(Material.GLASS).strength(0.5f).nonOpaque()), ModItemGroup.DECORATION);
     public static final Block FISH_TANK = registerBlock("fish_tank",
-            new DecorationBlock(FabricBlockSettings.of(Material.GLASS).strength(0.5f).nonOpaque()), ModItemGroup.DECORATION);
+            new FishTankBlock(FabricBlockSettings.of(Material.GLASS).strength(0.5f).nonOpaque()), ModItemGroup.DECORATION);
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);

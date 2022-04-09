@@ -9,5 +9,5 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup DECORATION = FabricItemGroupBuilder.build(new Identifier(BOTWModdingMod.MOD_ID, "decoration"),
-            () -> new ItemStack(ModBlocks.GAMING_MONITOR.asItem()));
+            () -> new ItemStack(ModBlocks.SUSHI_PLATE.asItem()));
 }

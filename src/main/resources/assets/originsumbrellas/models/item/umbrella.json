@@ -1,0 +1,11 @@
+{
+	"parent": "originsumbrellas:item/umbrella_default",
+
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "originsumbrellas:item/umbrella_1"},
+		{"predicate": {"custom_model_data":2}, "model": "originsumbrellas:item/umbrella_2"},
+		{"predicate": {"custom_model_data":2}, "model": "originsumbrellas:item/umbrella_3"},
+		{"predicate": {"custom_model_data":2}, "model": "originsumbrellas:item/umbrella_4"},
+		{"predicate": {"custom_model_data":2}, "model": "originsumbrellas:item/umbrella_5"}
+	]
+}

@@ -6,6 +6,9 @@ public enum Wallpaper implements StringIdentifiable {
     DEFAULT("default"),
     ENDER("ender"),
     COMB("comb"),
+    LINUX("linux"),
+    ESCA("esca"),
+    TUNER("tuner"),
     OFF("off");
 
     private final String name;

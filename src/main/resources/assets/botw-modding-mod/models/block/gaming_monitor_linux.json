@@ -1,0 +1,6 @@
+{
+  "parent": "botw-modding-mod:block/gaming_monitor",
+  "textures": {
+    "screen": "botw-modding-mod:block/screen_linux"
+  }
+}

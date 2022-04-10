@@ -36,9 +36,9 @@ public class SushiPlateBlock extends HorizontalFacingBlock {
                 return VoxelShapes.cuboid(-0.375f, 0f, 0.125f, 1.375f, 0.0875f, 0.875f);
             case EAST:
             case WEST:
-                return VoxelShapes.cuboid(0.125f, 0f, -0.275f, 0.875f, 0.0875f, 1.375f);
             default:
-                return VoxelShapes.fullCube();
+                return VoxelShapes.cuboid(0.125f, 0f, -0.275f, 0.875f, 0.0875f, 1.375f);
+
         }
     }
 }

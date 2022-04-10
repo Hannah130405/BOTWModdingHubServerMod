@@ -41,10 +41,24 @@ public class GamingMonitorBlock extends HorizontalFacingBlock {
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx) {
         Direction dir = state.get(FACING);
+        VoxelShape temp1 = VoxelShapes.cuboid(0f, 0f, 0f, 1f, 1f/16f, 1f);
+        VoxelShape temp2;
         switch(dir) {
+            case NORTH:
+                temp2 = VoxelShapes.cuboid(0f, 0f, 12f/16f, 1f, 12f/16f, 14f/16f);
+                break;
+            case SOUTH:
+                temp2 = VoxelShapes.cuboid(0f, 0f, 2f/16f, 1f, 12f/16f, 4f/16f);
+                break;
+            case EAST:
+                temp2 = VoxelShapes.cuboid(2f/16f, 0f, 0f, 4f/16f, 12f/16f, 1f);
+                break;
+            case WEST:
             default:
-                return VoxelShapes.fullCube();
+                temp2 = VoxelShapes.cuboid(12f/16f, 0f, 0f, 14f/16f, 12f/16f, 1f);
+                break;
         }
+        return VoxelShapes.union(temp1, temp2);
     }
 
     @Override

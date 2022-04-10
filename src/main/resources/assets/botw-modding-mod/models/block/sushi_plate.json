@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "minecraft:block/smooth_stone",
-		"2": "botw-modding-mod:block/sushi_plate"
+		"2": "botw-modding-mod:block/sushi_plate",
+		"particle": "minecraft:block/smooth_stone"
 	},
 	"elements": [
 		{

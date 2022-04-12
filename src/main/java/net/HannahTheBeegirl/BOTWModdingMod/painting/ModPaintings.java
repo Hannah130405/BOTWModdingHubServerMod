@@ -9,7 +9,7 @@ public class ModPaintings {
     public static final PaintingMotive SYNTHWAVE = registerPainting("synthwave", new PaintingMotive(16, 16));
     public static final PaintingMotive GAME = registerPainting("game", new PaintingMotive(80, 48));
     public static final PaintingMotive LOW = registerPainting("low", new PaintingMotive(48, 16));
-    public static final PaintingMotive RULER = registerPainting("ruler", new PaintingMotive(48, 64));
+    public static final PaintingMotive RULER = registerPainting("ruler", new PaintingMotive(64, 64));
     public static final PaintingMotive RULER2 = registerPainting("ruler2", new PaintingMotive(16, 32));
     public static final PaintingMotive EARTH = registerPainting("earth", new PaintingMotive(32, 32));
     public static final PaintingMotive FIRE = registerPainting("fire", new PaintingMotive(32, 32));

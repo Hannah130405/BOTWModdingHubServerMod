@@ -36,5 +36,4 @@ public class ModPaintings {
     public static void registerPaintings() {
         BOTWModdingMod.LOGGER.info("Registering Mod Paintings - "+BOTWModdingMod.MOD_ID);
     }
-
 }

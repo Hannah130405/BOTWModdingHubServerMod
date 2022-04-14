@@ -28,6 +28,8 @@ public class ModPaintings {
     public static final PaintingMotive RUINED = registerPainting("ruined", new PaintingMotive(32, 16));
     public static final PaintingMotive SAINTS = registerPainting("saints", new PaintingMotive(64, 64));
     public static final PaintingMotive VILLAGERS = registerPainting("villagers", new PaintingMotive(64, 32));
+    public static final PaintingMotive BEES = registerPainting("bees", new PaintingMotive(64, 64));
+    public static final PaintingMotive RULER3 = registerPainting("ruler3", new PaintingMotive(48, 64));
 
     private static PaintingMotive registerPainting(String name, PaintingMotive paintingMotive){
         return Registry.register(Registry.PAINTING_MOTIVE, new Identifier(BOTWModdingMod.MOD_ID, name), paintingMotive);
